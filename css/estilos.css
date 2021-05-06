@@ -1,0 +1,209 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0px 0px 0px 0px; }
+
+h1 {
+  color: #326771;
+  font-size: 32px;
+  display: block;
+  text-align: center; }
+
+h2 {
+  color: #326771;
+  font-size: 32px;
+  display: block;
+  text-align: center;
+  font-weight: 600; }
+
+h3 {
+  color: #326771;
+  font-size: 1.2em;
+  display: block;
+  text-align: center;
+  font-weight: 400; }
+
+p {
+  color: #272727;
+  font-size: auto;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 25px; }
+
+table {
+  background-color: #f5f4ee;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: groove; }
+
+.negrita {
+  font-weight: bold; }
+
+.navigator {
+  padding: 0%; }
+
+.banner {
+  padding: 0%; }
+
+.modalidad {
+  padding: 3%; }
+
+.cursos {
+  margin-bottom: 5%; }
+
+.cursos__catalogo {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: top;
+  justify-content: center; }
+
+.cursos__catalogo__producto {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: top;
+  width: 45%;
+  transition: all 0.5s; }
+  .cursos__catalogo__producto img {
+    max-width: 100%;
+    padding: 3%; }
+
+.cursos__catalogo__producto:hover {
+  transform: scale(1.08, 1.08); }
+
+.Salto {
+  display: block; }
+
+.form {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 25px; }
+
+.tabla {
+  font-size: 12px; }
+
+.Internacional {
+  display: flex;
+  flex-direction: column; }
+
+.Internacional__pais {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center; }
+  .Internacional__pais p {
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden; }
+
+.Internacional__pais__bandera {
+  width: 30%;
+  padding: 3%; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-area: footer; }
+
+.footer__logo {
+  height: auto;
+  width: 25%; }
+
+.navigator__badge {
+  margin-left: 3%; }
+
+/*Nuevos Estilos para Desafio 12, que se hicieron directo en SCSS*/
+/*Pagina Cursos*/
+.nuestroscursos {
+  margin-bottom: 0%; }
+
+.nuestroscursos__catalogo {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: top;
+  justify-content: center; }
+
+.nuestroscursos__catalogo__producto {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: top;
+  font-style: italic;
+  width: 90%; }
+  .nuestroscursos__catalogo__producto img {
+    max-width: 100%;
+    padding: 3%; }
+
+.nuestroscursos__catalogo__producto_descripcion {
+  font-style: normal; }
+  .nuestroscursos__catalogo__producto_descripcion p, .nuestroscursos__catalogo__producto_descripcion ul {
+    text-align: left; }
+
+.btn-primary-modificado {
+  width: 60%;
+  margin: auto; }
+
+.titulofaq {
+  margin-bottom: 3%; }
+
+.faq {
+  margin: 2%;
+  max-width: 95%;
+  margin-right: 5%;
+  margin-left: 5%; }
+  .faq p {
+    text-align: left;
+    font-size: 1em; }
+
+/*Estilos para Tablet--------------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+  .Internacional__pais {
+    font-size: 20px; }
+    .Internacional__pais a {
+      font-size: 20px; }
+  .nuestroscursos__catalogo__producto {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: top;
+    font-style: italic;
+    width: 45%; }
+    .nuestroscursos__catalogo__producto img {
+      max-width: 100%;
+      padding: 3%; } }
+
+/*Estilos para Computadora--------------------------------------------------------*/
+@media only screen and (min-width: 992px) {
+  .navigator a {
+    font-size: 20px; }
+  .compra {
+    padding: 3%; }
+  .navigator__badge {
+    display: none; }
+  .Internacional__pais {
+    font-size: 22px; }
+    .Internacional__pais a {
+      font-size: 22px; }
+  .cursos__catalogo {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: top;
+    justify-content: center; }
+  .nuestroscursos__catalogo__producto {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: top;
+    width: 30%; }
+    .nuestroscursos__catalogo__producto img {
+      max-width: 100%;
+      padding: 3%; } }
