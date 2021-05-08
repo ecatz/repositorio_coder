@@ -118,17 +118,24 @@ table{
     margin-right:auto;
     align-items:center;
     justify-content:space-evenly;
-    grid-area:footer; 
 }
 .footer__logo{
-    height:auto;
-    width:25%;
+    width:33%;
+    margin:auto;
+}
+.footer_redes{
+    width:33%;
+}
+.footer_copyright{
+    width:33%;
+}
+.footer_redes_logoinsta{
+    width:80%;
+    padding:20%;
 }
 .navigator__badge{
     margin-left:3%;
 }
-/*Nuevos Estilos para Desafio 12, que se hicieron directo en SCSS*/
-
 /*Pagina Cursos*/
 .nuestroscursos{
     margin-bottom:0%;
@@ -144,7 +151,7 @@ table{
     flex-flow:column nowrap;
     align-items:top;
     font-style:italic;
-    width:90%;
+    width:70%;
     img{
         max-width:100%;
         padding:3%;
@@ -157,7 +164,7 @@ table{
         
     }
 .btn-primary-modificado{
-        width:60%;
+        width:70%;
         margin:auto;
     }
 .titulofaq{
@@ -172,27 +179,28 @@ table{
     margin-right:5%;
     margin-left:5%;
 }
-
+.reseña{
+    font-style:italic;
+}
 
 /*Estilos para Tablet--------------------------------------------------------*/
 @media only screen and (min-width: 768px) {
 
-    .Internacional__pais{
-        font-size:20px;
-        a{
-        font-size:20px;}
-        }
+
     .nuestroscursos__catalogo__producto{
             display:flex;
             flex-flow:column nowrap;
             align-items:top;
             font-style:italic;
-            width:45%;
+            width:40%;
             img{
                 max-width:100%;
                 padding:3%;
             }
         }
+    .cursos__catalogo__producto{
+            width:30%;
+            }
         }
 
 /*Estilos para Computadora--------------------------------------------------------*/
@@ -205,12 +213,6 @@ table{
     }
     .navigator__badge{
         display:none;
-    }
-    .Internacional__pais{
-        font-size:22px;
-        a{
-        font-size:22px;
-        }
     }
     .cursos__catalogo{
         display:flex;
