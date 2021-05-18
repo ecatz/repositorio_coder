@@ -212,4 +212,7 @@ table {
     width: 30%; }
     .nuestroscursos__catalogo__producto img {
       max-width: 100%;
-      padding: 3%; } }
+      padding: 3%; }
+  .compra_banco {
+    text-align: center;
+    list-style: none; } }

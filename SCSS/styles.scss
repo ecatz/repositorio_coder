@@ -183,6 +183,7 @@ table{
     font-style:italic;
 }
 
+
 /*Estilos para Tablet--------------------------------------------------------*/
 @media only screen and (min-width: 768px) {
 
@@ -202,6 +203,7 @@ table{
             width:30%;
             }
         }
+        
 
 /*Estilos para Computadora--------------------------------------------------------*/
 @media only screen and (min-width: 992px) {
@@ -229,5 +231,9 @@ table{
                     max-width:100%;
                     padding:3%;}
                     }
+    .compra_banco{
+        text-align:center;
+        list-style:none;
+    }
     }
 

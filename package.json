@@ -1,5 +1,5 @@
 {
-  "name": "myweb",
+  "name": "merakihazloencasa",
   "version": "1.0.0",
   "description": "Esta es mi web",
   "main": "index.js",
@@ -7,12 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/styles.scss css/estilos.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
-
   },
   "author": "eric",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.7"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecatz/repositorio_coder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ecatz/repositorio_coder/issues"
+  },
+  "homepage": "https://github.com/ecatz/repositorio_coder#readme"
 }
